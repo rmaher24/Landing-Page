@@ -40,7 +40,7 @@ li{
     color: #E5E7EB;
     font-size: 18px;
     background-color: gray;
-    
+
 }
 .website{
     height: 250px;
@@ -66,4 +66,30 @@ button{
     color: white;
     font-size: 18px;
     font-weight: bold;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px
+}
+
+.img{
+    height: 150px;
+    width: 150px;
+    border: solid;
+    border-color:rgb(6, 139, 248);
+    border-radius: 10%;
+}
+
+.text{
+    width: 150px;
+    text-align: center;
+    color: #818181;
+}
+
+h2{
+    text-align: center;
+    padding: 30px
 }
