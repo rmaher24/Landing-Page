@@ -29,7 +29,7 @@ li{
     padding-bottom: 50px;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 .image-placeholder{
     height: 250px;
@@ -72,7 +72,8 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px
+    gap: 50px;
+    padding-bottom: 75px;
 }
 
 .img{
@@ -92,4 +93,28 @@ button{
 h2{
     text-align: center;
     padding: 30px
+}
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.quotation{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 750px;
+    
+}
+
+.thor{
+    margin-left: 600px;
+    font-weight: bold;
+    font-size: 20px;
 }
