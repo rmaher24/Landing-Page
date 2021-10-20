@@ -56,7 +56,7 @@ h1{
     font-size: 18px;
 }
 
-button{
+.sign{
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 25px;
@@ -117,4 +117,41 @@ h2{
     margin-left: 600px;
     font-weight: bold;
     font-size: 20px;
+}
+
+.background{
+    background-color: rgb(6, 139, 248);
+    display: flex;
+    margin: 50px;
+    padding: 50px 25px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    width: 750px;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.up{
+    background-color: rgb(6, 139, 248);
+    border: solid white 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    color: white;
+    border-radius: 10px;
+}
+
+.box{
+    color: white;
+}
+
+h4{
+    font-size: 16px;
 }
