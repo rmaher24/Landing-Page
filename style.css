@@ -4,9 +4,11 @@
 }
 .logo{
     margin-right: auto;
-    margin-left: 200px;
+    margin-left: 220px;
     color: #F9FAF8;
     font-size: 24px;
+    font-family: arial;
+    font-weight: bold;
 }
 
 .end{
@@ -22,38 +24,43 @@ ul{
 }
 li{
     padding: 16px;
+    font-family: arial;
 }
 .awesome{
     display: flex;
     background-color: #1F2937;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
     justify-content: center;
     align-items: center;
     padding-top: 100px;
+    gap: 50px;
 }
 .image-placeholder{
     height: 250px;
-    width: 400px;
+    width: 450px;
     justify-content: center;
     display: flex;
     align-items: center;
     color: #E5E7EB;
     font-size: 18px;
-    background-color: gray;
+    background-color: rgb(110, 110, 110);
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 .website{
     height: 250px;
-    width: 400px;
+    width: 450px;
 }
 h1{
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    font-family: arial;
 }
 .website p{
     color: #E5E7EB;
     font-size: 18px;
+    font-family: arial;
 }
 
 .sign{
@@ -66,6 +73,8 @@ h1{
     color: white;
     font-size: 18px;
     font-weight: bold;
+    margin-top: 8px;
+    border: none;
 }
 
 .info{
@@ -73,7 +82,7 @@ h1{
     align-items: center;
     justify-content: center;
     gap: 50px;
-    padding-bottom: 75px;
+    padding-bottom: 125px;
 }
 
 .img{
@@ -88,11 +97,14 @@ h1{
     width: 150px;
     text-align: center;
     color: #818181;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2{
     text-align: center;
-    padding: 30px
+    padding: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 32px;
 }
 
 .quote{
@@ -110,25 +122,28 @@ h2{
     font-style: italic;
     color: #1F2937;
     width: 750px;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .thor{
     margin-left: 600px;
     font-weight: bold;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .background{
     background-color: rgb(6, 139, 248);
     display: flex;
     margin: 50px;
-    padding: 50px 25px;
+    padding: 50px 75px;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
     gap: 150px;
     width: 750px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .action{
@@ -150,8 +165,20 @@ h2{
 
 .box{
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h4{
-    font-size: 16px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px;
+    display: flex;
+    justify-content: center; 
+    font-family: Arial, Helvetica, sans-serif;
+
 }
